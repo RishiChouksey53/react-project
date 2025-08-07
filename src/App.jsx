@@ -1,8 +1,8 @@
-import React from "react";
+import "./App.css";
 import Lottery from "./Lottery";
-import "./App.css"
+
 const App = () => {
-  return <Lottery />;
+  return <Lottery n={3} winningSum={15} />;
 };
 
 export default App;
